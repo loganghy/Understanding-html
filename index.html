@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML cheat sheet</title>
+</head>
+<a href="blog.html">Go to Blog page</a>
+<body>
+    <!-- Headings -->
+    <div class ="container">
+        <h1>Heading one</h1>
+        <h2>Heading two</h2>
+        <h3>Heading three</h3>
+        <h4>Heading four</h4>
+        <h5>Heading five</h5>
+        <h6>Heading six</h6>
+
+    <!-- Paragraphs -->
+    <p>
+        lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.
+    </p>
+    <p>
+        Nullam ac erat ante. <em>Praesent commodo cursus magna</em>, vel scelerisque nisl consectetur et. Donec sed odio dui. <a href="http://google.com" target="_blank">ut lacinia quam nec dui luctus rutrum.</a> duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+    </p>
+    <!-- Lists -->
+    <ul>
+        <li>List item one</li>
+        <li>List item two</li>
+        <li>List item three</li>
+    </ul>
+    <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+
+    <!-- Tables -->
+    <table>
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+                <td>Row 1, Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+                <td>Row 2, Cell 3</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <!-- Forms -->
+    <form class="my-form" action="#" method="post">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required
+            placeholder="Enter your name">
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required
+            placeholder="Enter your email">
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="30" required></textarea>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="gender">Gender:</label>
+         <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form> 
+
+    <!-- buttons -->
+    <button type="button" onclick="alert('Button clicked!')">Click Me!</button>
+
+    <!-- Images -->
+    <h2>Image Example</h2>
+    <a href="bottles.jpeg" target="_blank">
+        <img src="bottles.jpeg" alt="Placeholder Image">
+    </a>
+
+    <!-- quotations -->
+    <h2>Blockquote Example</h2>
+    <blockquote cite="https://www.google.com">
+        "This is an example of a blockquote. It is used to indicate the quotation of
+        a large section of text from another source."
+    </blockquote>
+
+    <p>The <abbr title="world wide web">www</abbr> is awesome</p>
+
+
+
+</body>
+</html>
