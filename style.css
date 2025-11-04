@@ -1,0 +1,88 @@
+body {
+    background-color: aqua;
+    font-family: Arial, sans-serif, 'Helvetica Neue';
+    font-size: 18px;
+}
+.headings {
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.paragraphs {
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.lists {
+    background-color: green;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.tables {
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.buttons {
+    background-color: purple;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+.images {
+    background-color: pink;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+.quotations {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* that was all the css for the index.html file */
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.homelink {
+    margin: 20px;
+    text-align: center;
+}
+
+.blog-intro {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px;
+}
+.sidebar {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px;
+}
+.footer-section {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
